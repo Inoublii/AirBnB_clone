@@ -23,7 +23,10 @@ class TestBaseModel(unittest.TestCase):
         self.assertTrue(hasattr(self.model1, 'updated_at'))
         self.assertTrue(hasattr(self.model2, 'updated_at'))
         self.assertTrue(self.model1.id != self.model2.id)
-        m1c = self.model1.created_at
+
+
+
+		m1c = self.model1.created_at
         m2c = self.model2.created_at
         self.assertTrue(m1c != m2c)
 
