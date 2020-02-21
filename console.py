@@ -191,7 +191,9 @@ class HBNBCommand(cmd.Cmd):
         '''HELP_quit'''
         print("Quit command to exit the program\n")
 
-    
+    def help_EOF(self):
+        '''HELP_EOF'''
+        print("Ctrl+D command to exit the program\n")
 
     def help_create(self):
         '''HELP_CREATE'''
