@@ -24,7 +24,7 @@ class TestConsole(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        '''setup for the test'''
+        '''setup for the tests'''
         cls.consol = HBNBCommand()
 
     @classmethod
