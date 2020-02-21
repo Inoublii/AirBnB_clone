@@ -19,7 +19,6 @@ class TestReview(unittest.TestCase):
         self.assertTrue(hasattr(self.a_inst, "updated_at"))
         self.assertTrue(hasattr(self.a_inst, "place_id"))
         self.assertTrue(hasattr(self.b_inst, "place_id"))
-
         self.assertTrue(hasattr(self.a_inst, "user_id"))
         self.assertTrue(hasattr(self.b_inst, "user_id"))
         self.assertTrue(hasattr(self.a_inst, "text"))
