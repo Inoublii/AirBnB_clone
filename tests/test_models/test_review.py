@@ -30,9 +30,6 @@ class TestReview(unittest.TestCase):
         self.assertTrue(type(self.a_inst.created_at) is datetime.datetime)
         self.assertTrue(type(self.a_inst.place_id) is str)
         self.assertTrue(type(self.a_inst.user_id) is str)
-
-
-		
         self.assertTrue(type(self.a_inst.text) is str)
 
     def test_save(self):
