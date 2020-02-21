@@ -36,20 +36,7 @@ class HBNBCommand(cmd.Cmd):
         '''EOF'''
         return True
 
-    def do_create(self, line):
-        '''create new instance'''
-        try:
-            if line:
-                ClassName = line.split(" ")[0]
-                new_dict = eval(ClassName+"()")
-                new_dict.save()
-                print(new_dict.id)
-            else:
-                raise SyntaxError
-        except SyntaxError:
-            print("** class name missing **")
-        except NameError:
-            print("** class doesn't exist **")
+    
 
     def do_show(self, line):
         '''show instances'''
