@@ -7,13 +7,7 @@ import pep8
 import datetime
 
 
-class TestBaseModel(unittest.TestCase):
-    '''Test for BaseModel class '''
-    def setUp(self):
-        '''sets up objects for testing'''
-        self.model1 = BaseModel()
-        self.model2 = BaseModel()
-        self.model2.save()
+
 
     def test_basic_setup(self):
         '''test for to_json method of BaseModel class '''
