@@ -19,11 +19,7 @@ class TestBaseModel(unittest.TestCase):
         '''test for to_json method of BaseModel class '''
         self.assertTrue(hasattr(self.model1, 'id'))
         self.assertTrue(hasattr(self.model1, '__class__'))
-
-
-
-
-		self.assertTrue(hasattr(self.model1, 'created_at'))
+        self.assertTrue(hasattr(self.model1, 'created_at'))
         self.assertTrue(hasattr(self.model1, 'updated_at'))
         self.assertTrue(hasattr(self.model2, 'updated_at'))
         self.assertTrue(self.model1.id != self.model2.id)
