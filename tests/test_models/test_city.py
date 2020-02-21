@@ -34,7 +34,10 @@ class TestState(unittest.TestCase):
         b_date = self.b_inst.updated_at
         self.b_inst.save()
         b_date2 = self.b_inst.updated_at
-        self.assertTrue(b_date != b_date2)
+
+
+
+		self.assertTrue(b_date != b_date2)
 
 if __name__ == '__main__':
     unittest.main()
