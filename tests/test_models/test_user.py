@@ -23,11 +23,7 @@ class TestUser(unittest.TestCase):
         self.assertTrue(hasattr(self.b_inst, "password"))
         self.assertTrue(hasattr(self.a_inst, "first_name"))
         self.assertTrue(hasattr(self.b_inst, "first_name"))
-
-
-
-
-		self.assertTrue(hasattr(self.a_inst, "last_name"))
+        self.assertTrue(hasattr(self.a_inst, "last_name"))
         self.assertTrue(hasattr(self.b_inst, "last_name"))
         self.assertTrue(self.a_inst.created_at != self.b_inst.created_at)
 
