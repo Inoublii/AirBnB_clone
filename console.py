@@ -187,9 +187,7 @@ class HBNBCommand(cmd.Cmd):
         except ValueError:
             print("** value missing **")
 
-    def help_quit(self):
-        '''HELP_quit'''
-        print("Quit command to exit the program\n")
+   
 
     def help_EOF(self):
         '''HELP_EOF'''
