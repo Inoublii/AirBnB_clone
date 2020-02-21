@@ -29,7 +29,9 @@ class TestBaseModel(unittest.TestCase):
 
     def test_types(self):
         '''testing attributes to ensure proper typing'''
-        self.assertIsInstance(self.model1.id, str)
+
+
+		self.assertIsInstance(self.model1.id, str)
         self.assertIsInstance(self.model1.__class__, type)
         self.assertIsInstance(self.model1.created_at, datetime.datetime)
         self.model2.save()
