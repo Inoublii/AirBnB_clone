@@ -249,11 +249,3 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
- def help_create(self):
-        '''HELP_CREATE'''
-        print(
-                "Create Command to create a new instance of <Model_name>\
-                \nExample:\
-                \n> create <Model_name>\
-                \n"
-        )
