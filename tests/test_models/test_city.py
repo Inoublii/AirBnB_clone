@@ -30,7 +30,9 @@ class TestState(unittest.TestCase):
         self.assertTrue(type(self.a_inst.name) is str)
 
     def test_save(self):
-        """ Testing updating  """
+
+
+		""" Testing updating  """
         b_date = self.b_inst.updated_at
         self.b_inst.save()
         b_date2 = self.b_inst.updated_at
