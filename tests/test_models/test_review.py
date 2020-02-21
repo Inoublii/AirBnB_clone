@@ -27,9 +27,6 @@ class TestReview(unittest.TestCase):
 
     def test_types(self):
         """ Testing for types """
-
-
-		
         self.assertTrue(type(self.a_inst.created_at) is datetime.datetime)
         self.assertTrue(type(self.a_inst.place_id) is str)
         self.assertTrue(type(self.a_inst.user_id) is str)
