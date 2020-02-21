@@ -28,7 +28,10 @@ class TestAmenity(unittest.TestCase):
 
     def test_save(self):
         """ Testing updating  """
-        b_date = self.b_inst.updated_at
+
+
+
+	    b_date = self.b_inst.updated_at
         self.b_inst.save()
         b_date2 = self.b_inst.updated_at
         self.assertTrue(b_date != b_date2)
