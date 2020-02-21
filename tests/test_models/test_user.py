@@ -19,9 +19,6 @@ class TestUser(unittest.TestCase):
         self.assertTrue(hasattr(self.a_inst, "updated_at"))
         self.assertTrue(hasattr(self.a_inst, "email"))
         self.assertTrue(hasattr(self.b_inst, "email"))
-
-
-		
         self.assertTrue(hasattr(self.a_inst, "password"))
         self.assertTrue(hasattr(self.b_inst, "password"))
         self.assertTrue(hasattr(self.a_inst, "first_name"))
